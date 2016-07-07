@@ -16,6 +16,7 @@
 		C153E6B11D29F63600A79DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C153E6B01D29F63600A79DFC /* Assets.xcassets */; };
 		C153E6B41D29F63600A79DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C153E6B21D29F63600A79DFC /* LaunchScreen.storyboard */; };
 		C153E6BE1D29FABD00A79DFC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C153E6BD1D29FABD00A79DFC /* Podfile */; };
+		C15897DF1D2C824D000D3BB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C15897DE1D2C824D000D3BB3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +34,8 @@
 		C153E6B01D29F63600A79DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C153E6B31D29F63600A79DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C153E6B51D29F63600A79DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C153E6BD1D29FABD00A79DFC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		C153E6BD1D29FABD00A79DFC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C15897DE1D2C824D000D3BB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		C153E6A01D29F63600A79DFC /* Lab06 */ = {
 			isa = PBXGroup;
 			children = (
+				C15897DE1D2C824D000D3BB3 /* GoogleService-Info.plist */,
 				C153E6BC1D29F65000A79DFC /* Controllers */,
 				C153E6BB1D29F64600A79DFC /* Main */,
 				C153E6AA1D29F63600A79DFC /* Main.storyboard */,
@@ -187,6 +190,7 @@
 			files = (
 				C153E6B41D29F63600A79DFC /* LaunchScreen.storyboard in Resources */,
 				C153E6B11D29F63600A79DFC /* Assets.xcassets in Resources */,
+				C15897DF1D2C824D000D3BB3 /* GoogleService-Info.plist in Resources */,
 				C153E6BE1D29FABD00A79DFC /* Podfile in Resources */,
 				C153E6AC1D29F63600A79DFC /* Main.storyboard in Resources */,
 			);

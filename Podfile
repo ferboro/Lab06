@@ -4,4 +4,5 @@ use_frameworks!
 
 target 'Lab06' do
 pod 'GoogleMaps'
+pod 'Google/Analytics'
 end

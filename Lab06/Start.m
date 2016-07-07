@@ -7,6 +7,7 @@
 //
 
 #import "Start.h"
+#import "Google/Analytics.h"
 @import GoogleMaps;
 
 @interface Start ()
@@ -20,6 +21,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self createMap];
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker set:kGAIScreenName value:@"Start"];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
 }
 
 - (void)didReceiveMemoryWarning {
